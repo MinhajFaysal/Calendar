@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/825dc8e15f.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        .main-container{
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+        }
+        .login-form input{
+            margin-top: 1em;
+            font-size: 1.2em;
+            padding: 4px 9px;
+        }
+        .login-form input[type="submit"]{
+            background-image: linear-gradient(cyan , rgb(69, 69, 255));
+            border: 0;
+            font-weight: 700;
+            color: white;
+            border-radius: 3px;
+        }
+        .login-form input[type="reset"]{
+            background-color: rgb(255, 88, 88);
+            border: 0;
+            font-weight: 700; 
+            color: white;
+            border-radius: 3px;
+        }
+        header a{
+            text-decoration: none;
+            color: black;
+            margin-left: 10px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="">Home</a>
+                <a href="">Menu</a>
+                <a href="">Blog</a>
+                <a href="">About Us</a>
+            </span>
+            <span>
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+                <a href="#"><i class="fa-solid fa-right-from-bracket"></i></a>
+            </span>
+        </nav>
+    </header>
+    <section class="main-container">
+        <form action="" class="login-form">
+            <h2>Please Login</h2>
+            <input type="email" name="" id="" placeholder="Enter your email" required>
+            <input type="password" name="" id="" placeholder="Password" required>
+            <input type="submit" value="Login">
+            <input type="reset" value="Reset">
+        </form>
+    </section>
+</body>
+</html>
